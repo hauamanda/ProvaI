@@ -140,3 +140,78 @@ var info = document.getElementById(“input”).value
  Um exemplo de como pegar o valor de um input e imprimir o dobro dele é
 var info = document.getElementById(“input”).value 
 var texto = document.getElementById(“texto”).innerText = toString(info * 2)
+
+------------------------------------------------------------------------------------------------------------------
+1. Para que serve a tag `<title>` dentro da tag `<head>`?
+   - A tag `<title>` define o título do documento HTML. Ele é exibido na barra de título do navegador ou na aba da página. O conteúdo dentro da tag `<title>` também é utilizado por mecanismos de busca para descrever o conteúdo da página.
+
+2. O que é um atributo em HTML e como ele é usado?
+   - Um atributo em HTML fornece informações adicionais sobre um elemento e é especificado na tag de abertura do elemento. 
+   Por exemplo, `<img src="imagem.jpg" alt="Descrição da imagem">`, onde `src` e `alt` são atributos da tag `<img>`.
+    Eles modificam o comportamento ou a aparência do elemento.
+
+3. Qual a função da tag `<body>` em um documento HTML?
+   - A tag `<body>` contém todo o conteúdo visível de uma página HTML. Ela engloba desde texto até imagens, links, formulários e 
+   outros elementos que são exibidos diretamente na janela do navegador.
+
+4. Qual a diferença entre as tags `<div>` e `<span>`?
+   - `<div>` e `<span>` são elementos genéricos de contêiner em HTML.
+   - `<div>` é um elemento de bloco, usado para agrupar elementos e aplicar estilos de layout. Ele geralmente cria quebras de 
+   linha antes e depois de si.
+   - `<span>` é um elemento inline, usado para agrupar texto e outros elementos em linha sem criar quebras de linha.
+
+5. **Como você cria uma lista ordenada e uma lista não ordenada em HTML?**
+   - Lista ordenada (`<ol>`):
+     ```html
+     <ol>
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+     </ol>
+     ```
+   - Lista não ordenada (`<ul>`):
+     ```html
+     <ul>
+       <li>Item A</li>
+       <li>Item B</li>
+       <li>Item C</li>
+     </ul>
+     ```
+
+6. **Como você comenta código em HTML?**
+   - Comentários em HTML são feitos usando `<!-- comentário -->`. Todo o texto dentro dos `<!--` e `-->` 
+   não será exibido na página, sendo útil para notas e descrições para os desenvolvedores.
+
+7. **Qual a diferença entre uma tag semântica e uma tag não semântica? Dê exemplos.**
+   - Tags semânticas em HTML têm um significado específico que descreve seu conteúdo. Exemplos: `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`.
+   - Tags não semânticas são usadas mais para organização e estilo, sem indicar o significado específico do conteúdo. Exemplos: `<div>`, `<span>`.
+
+8. **Qual é a diferença entre os atributos id e class?**
+   - O atributo `id` é único e identifica um elemento HTML de forma exclusiva dentro de um documento. O atributo `class` é usado para agrupar elementos e aplicar estilos em conjuntos de elementos.
+
+9. **Qual a função do atributo required?**
+   - O atributo `required` é usado em elementos de formulário em HTML para especificar que um campo deve ser preenchido pelo usuário antes de enviar o formulário.
+
+10. **O que é um seletor em CSS?**
+    - Um seletor em CSS é um padrão que define quais elementos HTML serão estilizados pelo conjunto de regras CSS associado a esse seletor.
+
+11. **Qual a diferença entre um seletor de classe e um seletor de ID em CSS?**
+    - Um seletor de classe é precedido por um ponto (`.`) e pode ser aplicado a múltiplos elementos, enquanto um seletor de ID é precedido por um hash (`#`) e deve ser único dentro do documento.
+
+12. **Explique a diferença entre padding e margin.**
+    - `Padding` é o espaço entre o conteúdo do elemento e sua borda. `Margin` é o espaço externo ao redor do elemento, que define a distância entre ele e outros elementos vizinhos.
+
+13. **O que são pseudoclasses em CSS? Dê exemplos.**
+    - Pseudoclasses em CSS são palavras-chave que especificam um estado especial do elemento selecionado. Exemplos incluem `:hover`, `:focus`, `:first-child`, `:nth-child(n)`, entre outros.
+
+14. **O que é um modelo de caixa (box model) em CSS?**
+    - O modelo de caixa em CSS descreve como os elementos HTML são renderizados em relação ao espaço que ocupam. Ele consiste em margens, bordas, preenchimento e o conteúdo real do elemento.
+
+15. **Qual a diferença entre JavaScript e Java?**
+    - JavaScript é uma linguagem de script usada principalmente para interatividade em páginas da web, enquanto Java é uma linguagem de programação de propósito geral usada para desenvolvimento de aplicativos e sistemas.
+
+16. **Qual a diferença entre var, let e const em JavaScript?**
+    - `var` é escopo de função, `let` é escopo de bloco e `const` define uma variável de valor constante que não pode ser reatribuída.
+
+17. **O que é a manipulação do DOM em JavaScript?**
+    - A manipulação do DOM (Document Object Model) em JavaScript refere-se à interação com a estrutura hierárquica de elementos HTML em uma página. Isso inclui adicionar, modificar ou remover elementos dinamicamente.
